@@ -12,6 +12,25 @@ public class SceneRightTween : MonoBehaviour
 
     public Vector3 vector = new Vector3(2, 1, 2);
 
+
+    Vector3 cube2Pos;
+    Vector3 cube3Pos;
+
+    //Sequence sequenceAnimation = DOTween.Sequence();
+
+    public void Start()
+    {
+        cube2Pos = cube2.transform.position;
+        cube3Pos = cube3.transform.position;
+    }
+
+    public void OnRestartClick() {
+
+        cube2.transform.position = cube2Pos;
+        cube3.transform.position = cube3Pos ;
+        //sequenceAnimation.Rewind();
+    }
+
     public void TweenSequence() {
         DOTween.Sequence().Append(cube2.DOMove(destinationPointRight.position, duration).SetEase(Ease.InOutBack))
             .Join(cube3.DOJump(point1.position, 2.0f, 1, duration*2))
