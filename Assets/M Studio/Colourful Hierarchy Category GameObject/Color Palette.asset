@@ -15,26 +15,26 @@ MonoBehaviour:
   colorDesigns:
   - keyChar: //
     textColor: {r: 0, g: 0, b: 0, a: 1}
-    backgroundColor: {r: 0.90588236, g: 0.43137258, b: 0.7781152, a: 1}
+    backgroundColor: {r: 1, g: 1, b: 1, a: 1}
     textAlignment: 4
     fontStyle: 1
   - keyChar: ']'
-    textColor: {r: 0, g: 0, b: 0, a: 1}
-    backgroundColor: {r: 0.43137258, g: 0.51579523, b: 0.90588236, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.19873619, g: 0.26208776, b: 0.5471698, a: 1}
     textAlignment: 4
     fontStyle: 1
   - keyChar: '#'
     textColor: {r: 1, g: 1, b: 1, a: 1}
-    backgroundColor: {r: 0.43137258, g: 0.77426034, b: 0.90588236, a: 1}
+    backgroundColor: {r: 1, g: 0.7975877, b: 0.6084906, a: 1}
     textAlignment: 3
     fontStyle: 1
   - keyChar: '@'
     textColor: {r: 1, g: 1, b: 1, a: 1}
-    backgroundColor: {r: 0.43137258, g: 0.90588236, b: 0.6777803, a: 1}
+    backgroundColor: {r: 1, g: 0.56094337, b: 0.15566039, a: 1}
     textAlignment: 4
     fontStyle: 1
   - keyChar: $
     textColor: {r: 0, g: 0, b: 0, a: 1}
-    backgroundColor: {r: 0.7213897, g: 0.43147027, b: 0.9056604, a: 1}
+    backgroundColor: {r: 0.43137258, g: 0.7725491, b: 0.9058824, a: 1}
     textAlignment: 4
     fontStyle: 1
