@@ -11,7 +11,7 @@ public class SceneLeftTween : MonoBehaviour
 
     Vector3 cube1Pos;
 
-    //Sequence seq = DOTween.Sequence();
+    Tween seqLeft;
 
     public void Start()
     {
@@ -21,10 +21,10 @@ public class SceneLeftTween : MonoBehaviour
     public void OnRestartClick()
     {
         cube1.transform.position = cube1Pos;
-        //seq.Rewind();
+        seqLeft.Kill();
     }
 
     public void JumpToDestination() {
-        DOTween.Sequence().Append(cube1.DOJump(destinationPoint.position,2.0f, 1 ,duration) );
+        seqLeft = DOTween.Sequence().Append(cube1.DOJump(destinationPoint.position,2.0f, 1 ,duration) );
     }
 }
